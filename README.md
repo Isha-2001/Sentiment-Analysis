@@ -8,8 +8,9 @@ This project implements a sentiment analysis model to classify tweets as positiv
 - Expansion of chat abbreviations (e.g., LOL → laughing out loud)  
 - Punctuation removal and lemmatization for better text representation  
 - Tokenization of tweets  
-- Extraction and visualization of common hashtags by sentiment  
-- Decision Tree classifier for sentiment prediction  
+- Feature Extraction: Converting text into numerical features using techniques like TF-IDF.
+- Model Training: Training a Decision Tree classifier on the processed data.
+- Evaluation: Assessing model performance using appropriate metrics.
 
 ## Getting Started
 
